@@ -23,7 +23,7 @@ void loop() {
   Keyboard.print("powershell -w h");
   _hitKey(KEY_RETURN);
   Keyboard.print("Restart-Computer");
-  //_hitKey(KEY_RETURN);
+  _hitKey(KEY_RETURN);
 
   Keyboard.end();
   exit(0);
